@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="ExamenFinal.Capa_Presentacion.Menu" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <title>Menú Principal</title>
+    <link href="../Estilos/menu-style.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="circle">
+            <div class="ring">
+                <a href="\Capa Presentacion\Login.aspx" class="menuItem">
+                    <i class="fa fa-power-off fa-2x"></i>Salir
+                </a>
+                <a href="\Capa Presentacion\Agente_Vista.aspx" class="menuItem">
+                    <i class="fa fa-user fa-2x"></i>Agentes
+                </a>
+                <a href="\Capa Presentacion\Clientes_View.aspx" class="menuItem">
+                    <i class="fa fa-users fa-2x"></i>Clientes
+                </a>
+                <a href="\Capa Presentacion\Casas.aspx" class="menuItem">
+                    <i class="fa fa-home fa-2x"></i>Casas
+                </a>
+
+                </a>
+                <a href="\Capa Presentacion\Venta_View.aspx" class="menuItem">
+                    <i class="fa fa-money fa-2x"></i>Ventas
+                </a>
+                <!-- Más ítems del menú aquí -->
+            </div>
+            <a href="#" class="center fa fa-th fa-2x"></a>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <!-- El contenido dinámico se insertará aquí en las páginas de contenido que usan esta página maestra -->
+        </asp:ContentPlaceHolder>
+    </form>
+    <script src="../Estilos/script.js"></script>
+</body>
+</html>

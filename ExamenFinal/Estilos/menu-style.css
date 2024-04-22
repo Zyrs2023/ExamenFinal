@@ -1,0 +1,63 @@
+﻿.circle {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el borde inferior */
+    right: 20px; /* Distancia desde el borde derecho */
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    background: turquoise; /* Cambio de color a turquesa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 70px 20px rgba(255, 255, 255, 0.5); /* Cambio de color a blanco para el resplandor */
+}
+
+.center {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: turquoise; /* Centro de botón color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menuItem {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: turquoise; /* Cambio de color a turquesa */
+    color: black; /* Cambio de color a negro */
+    font-size: 24px; /* Icon size */
+    text-decoration: none;
+    opacity: 0; /* Initially hidden */
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+/* Estilos para los ítems cuando el menú esté abierto */
+.open .menuItem {
+    opacity: 1; /* Mostrar elementos */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) translateX(0px); /* Ajustar esto en JS */
+}
+
+/* Estilos para los ítems al hacer hover */
+.menuItem:hover {
+    background-color: #55E2F9; /* Color de resaltado al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
