@@ -30,12 +30,12 @@
                 <a href="\Capa Presentacion\Venta_View.aspx" class="menuItem">
                     <i class="fa fa-money fa-2x"></i>Ventas
                 </a>
-                <!-- Más ítems del menú aquí -->
+                
             </div>
             <a href="#" class="center fa fa-th fa-2x"></a>
         </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            <!-- El contenido dinámico se insertará aquí en las páginas de contenido que usan esta página maestra -->
+           
         </asp:ContentPlaceHolder>
     </form>
     <script src="../Estilos/script.js"></script>

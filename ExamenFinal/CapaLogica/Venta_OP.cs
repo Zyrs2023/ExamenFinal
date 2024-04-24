@@ -143,5 +143,5 @@ namespace ExamenFinal.CapaLogica
             }
             return dt;
         }
-    }//fin clasw
-}//fin namespace
+    }
+}

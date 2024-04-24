@@ -145,5 +145,5 @@ namespace ExamenFinal.CapaLogica
 
 
 
-    }//fin clase
-}//fin namespace
+    }
+}

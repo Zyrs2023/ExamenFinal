@@ -4,7 +4,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Enlace a Bootstrap 5 -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,7 +21,7 @@
             <div class="card-body">
                 <form id="form1" class="float-end">
                     <div class="row">
-                        <!-- Primera columna -->
+                       
                         <div class="col">
                             <div class="form-group">
                                 <div class="mb-3">
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <!-- Fuera del formulario -->
+   
     <div class="col-md-6" style="float: right;">
         <div class="card">
             <h3 class="card-header text-center">Agentes Registrados</h3>
@@ -71,8 +71,7 @@
             </div>
             <div class="card-body">
                 <hr />
-                <!-- Línea divisoria -->
-                <!-- GridView -->
+           
                 <br />
                 <asp:GridView ID="gvAgentes" runat="server" AutoGenerateColumns="False" Width="850px">
                     <Columns>

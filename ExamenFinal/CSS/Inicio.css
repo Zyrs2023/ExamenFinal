@@ -1,0 +1,17 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../Imagen/home-sales-agents-and-buyers-work-on-signing-new-homes-and-shaking-hands-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}

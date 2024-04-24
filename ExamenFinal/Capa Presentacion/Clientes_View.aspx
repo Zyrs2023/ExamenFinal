@@ -18,7 +18,7 @@
             <div class="card-body">
                 <form id="form1" class="float-end">
                     <div class="row">
-                        <!-- Primera columna -->
+                       
                         <div class="col">
                             <div class="form-group">
                                 <div class="mb-3">
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <!-- Fuera del formulario -->
+   
     <div class="col-md-6" style="float: right;">
         <div class="card">
             <h3 class="card-header text-center">Clientes Registrados</h3>
@@ -64,8 +64,7 @@
             </div>
             <div class="card-body">
                 <hr />
-                <!-- Línea divisoria -->
-                <!-- GridView -->
+               
                 <br />
                 <asp:GridView ID="gvClientes" runat="server" AutoGenerateColumns="False" Width="850px">
                     <Columns>

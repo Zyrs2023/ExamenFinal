@@ -74,8 +74,10 @@
     <Content Include="Capa Presentacion\Inicio.aspx" />
     <Content Include="Capa Presentacion\Login.aspx" />
     <Content Include="Capa Presentacion\Venta_View.aspx" />
-    <Content Include="Estilos\menu-style.css" />
-    <Content Include="Estilos\script.js" />
+    <Content Include="CSS\Inicio.css" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\menu-style.css" />
+    <Content Include="CSS\script.js" />
     <Content Include="Imagen\home-sales-agents-and-buyers-work-on-signing-new-homes-and-shaking-hands-photo.jpg" />
     <Content Include="Imagen\images %281%29.jpeg" />
     <Content Include="Web.config" />
@@ -152,9 +154,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CSS\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
